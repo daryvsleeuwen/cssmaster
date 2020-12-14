@@ -1,0 +1,77 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background-image: url("assets/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.phone-cutout {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    bottom: -320px;
+    right: -250px;
+}
+
+.boxes-holder {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6vw;
+    z-index: 100;
+}
+
+.option-box {
+    position: relative;
+    max-width: 300px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.option-filler {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(151, 5, 151, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(151, 5, 151, 0.5, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+}
+
+.option-text {
+    word-break: break-word;
+    font-size: 16px;
+}
