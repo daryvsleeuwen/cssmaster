@@ -55,6 +55,7 @@ body {
     margin: 20px 0px;
     box-sizing: border-box;
     cursor: pointer;
+    transition: all 800ms cubic-bezier(.67,.06,.03,1.01);
 }
 
 .option-filler {
@@ -74,4 +75,5 @@ body {
 .option-text {
     word-break: break-word;
     font-size: 16px;
+    pointer-events: none;
 }
