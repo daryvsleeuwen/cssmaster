@@ -19,7 +19,7 @@ body {
   background-image: url("assets/background.jpeg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: right bottom;
+  background-position: center;
 }
 
 .blur {
